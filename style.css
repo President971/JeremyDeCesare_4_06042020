@@ -377,6 +377,7 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: relative;
+        left: 75%;
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {

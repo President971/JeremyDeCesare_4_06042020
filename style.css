@@ -26,6 +26,14 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+.keyword
+{ color:#cccccc;
+  font-size:1px;
+}
+.keywords 
+{
+    color:#F3976C;
+}
 
 .bloc {
     width: 100%;
@@ -195,7 +203,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .d-bloc .panel button:hover,
@@ -326,6 +334,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    list-style-type: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -361,14 +370,13 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.contact {
+    padding-left: 20px;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
-        position: relative
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
+        position: relative;
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {

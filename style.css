@@ -454,7 +454,10 @@ nav .caret {
     margin-bottom: 40px;
 }
 .txttaille {
-    font-size: medium;
+    font-size: 20px;
+}
+.txtchouette {
+    font-size: 24px;
 }
 .btn {
     margin: 0 5px 5px 0;
